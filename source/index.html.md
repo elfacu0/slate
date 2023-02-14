@@ -150,6 +150,6 @@ Set header to
 `Bearer <token>`
 
 <aside class="notice">
-You must replace <code>meowmeowmeow</code> with your personal API key.
+You must replace <code>token</code> with the returned value
 </aside>
 
