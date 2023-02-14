@@ -103,47 +103,16 @@ Retrieve the metrics of all current endpoints
 
 `GET https://api-0fx2.onrender.com/metrics`
 
-## Delete a Specific Kitten
-
-```shell
-curl "http://example.com/api/kittens/2" \
-  -X DELETE \
-  -H "Authorization: meowmeowmeow"
-```
-
-> The above command returns JSON structured like this:
-
-```json
-{
-  "id": 2,
-  "deleted" : ":("
-}
-```
-
-This endpoint deletes a specific kitten.
-
-### HTTP Request
-
-`DELETE http://example.com/kittens/<ID>`
-
-### URL Parameters
-
-Parameter | Description
---------- | -----------
-ID | The ID of the kitten to delete
-
-
 
 # Authentication
 
 > To get Auth token, use this code:
 
 ```shell
-curl "api_endpoint_here" \
-  -H "Authorization: meowmeowmeow"
+curl "https://api-0fx2.onrender.com/auth"
 ```
 
-Any endpoint with enable-auth set to true will need to use a bearer token, you can get it doing a Get Request to /auth
+Any endpoint with enable-auth set to true will need to use a bearer token, you can get it doing a GET Request to /auth
 
 Set header to
 
